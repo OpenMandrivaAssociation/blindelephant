@@ -2,10 +2,10 @@
 
 Name:		blindelephant
 Version:	1.0
-Release:	%mkrel 0.%{snapshot}.1
+Release:	%mkrel 0.%{snapshot}.2
 Summary:	Web Application Finger Printer
 License:	LGPL
-Group:		Networking/Other
+Group:		Monitoring
 URL:		http://blindelephant.sourceforge.net/
 Source:     %{name}-%{snapshot}.tar.bz2
 BuildArch:	noarch
