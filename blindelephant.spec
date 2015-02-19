@@ -2,11 +2,12 @@
 
 Name:		blindelephant
 Version:	1.0
-Release:	0.%{snapshot}.2
+Release:	0.%{snapshot}.3
 Summary:	Web Application Finger Printer
 License:	LGPL
 Group:		Networking/Other
 URL:		http://blindelephant.sourceforge.net/
+# svn checkout svn://svn.code.sf.net/p/blindelephant/code/trunk blindelephant-code
 Source:     %{name}-%{snapshot}.tar.bz2
 BuildArch:	noarch
 
@@ -41,7 +42,6 @@ install -m 755 tools/shell-scripts/* \
     %{buildroot}%{_datadir}/%{name}/shell-scripts/
 
 %files
-%defattr(-,root,root)
 %doc README doc/*
 %{_bindir}/blindelephant
 %{py_sitedir}/blindelephant
@@ -49,9 +49,4 @@ install -m 755 tools/shell-scripts/* \
 %{_datadir}/%{name}
 
 
-
-%changelog
-* Wed May 18 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-0.5.1mdv2011.0
-+ Revision: 676002
-- import blindelephant
 
