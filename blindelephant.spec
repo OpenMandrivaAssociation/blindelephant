@@ -1,8 +1,8 @@
 %define snapshot 5
 
 Name:		blindelephant
-Version:	1.0
-Release:	0.%{snapshot}.3
+Version:	7
+Release:	1
 Summary:	Web Application Finger Printer
 License:	LGPL
 Group:		Networking/Other
