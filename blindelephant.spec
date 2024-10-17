@@ -6,7 +6,7 @@ Release:	1
 Summary:	Web Application Finger Printer
 License:	LGPL
 Group:		Networking/Other
-URL:		http://blindelephant.sourceforge.net/
+URL:		https://blindelephant.sourceforge.net/
 # svn checkout svn://svn.code.sf.net/p/blindelephant/code/trunk blindelephant-code
 Source:     %{name}-%{snapshot}.tar.bz2
 BuildArch:	noarch
